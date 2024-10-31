@@ -1,5 +1,5 @@
 # Project Name
-TARGET = SimpleSampler
+TARGET = Blink
 
 # Sources
 CPP_SOURCES = Blink.cpp

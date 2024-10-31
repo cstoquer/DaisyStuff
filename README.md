@@ -33,6 +33,8 @@ cd firmwares/Blink
 
 ### On Windows
 
+⚠️  *Not tested. Need help to figure out if these commands works on Windows*
+
 - `task build_and_program_dfu` to build and flash the firmware using USB
 - `task build_and_program` to build and flash using a debug probe
 

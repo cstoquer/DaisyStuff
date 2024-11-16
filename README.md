@@ -11,7 +11,7 @@ git submodule update --init --recursive
 ```
 - Build Daisy libraries:
 ```sh
-sh build_libs.sh
+./build_libs.sh
 ```
 
 
@@ -35,8 +35,8 @@ cd firmwares/Blink
 
 ⚠️  *Not tested. Need help to figure out if these commands works on Windows*
 
-- `task build_and_program_dfu` to build and flash the firmware using USB
-- `task build_and_program` to build and flash using a debug probe
+- `make` to build the firmware
+- `make program-dfu` to flash using a USB
 
 ### On Linux
 
